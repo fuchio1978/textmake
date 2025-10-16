@@ -24,10 +24,6 @@
 
 3. ブラウザで `http://localhost:5000` にアクセスし、音声ファイルをアップロードしてください。変換が完了するとテキストファイルがダウンロードされます。
 
-## 参考ドキュメント
-
-- ローカルでの文字起こしテスト手順: [docs/local-testing.md](docs/local-testing.md)
-
 ## 環境変数
 
 | 変数名 | 説明 | 既定値 |
@@ -38,3 +34,7 @@
 ## ライセンス
 
 MIT License
+
+## 関連ドキュメント
+
+- ローカル動作確認ガイド: [docs/local-testing.md](docs/local-testing.md)

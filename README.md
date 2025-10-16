@@ -33,11 +33,10 @@ MIT License
 | 変数名 | 説明 | 既定値 |
 | ------ | ---- | ------ |
 | `TEXTMAKE_SECRET_KEY` | Flask のセッション暗号鍵（開発では既定値のままでも構いません）。本番では十分な長さのランダム値に置き換えてください。 | `change-this-secret` |
-| `TEXTMAKE_WHISPER_MODEL` | Whisper が利用するモデル名。`tiny` / `base` / `small` / `medium` / `large` などを指定できます。 | `base` |
+| `TEXTMAKE_WHISPER_MODEL` | Whisper で使用するモデル ID。`tiny`、`base`、`small`、`medium`、`large-v2` などを指定できます。 | `base` |
 
-追加の設定項目や詳細は [設定リファレンス](docs/configuration.md) を参照してください。
+その他の設定項目は [設定リファレンス](docs/configuration.md) を参照してください。
 
 ## 関連ドキュメント
 
-* [ローカル動作確認ガイド](docs/local-testing.md)
-* [設定リファレンス](docs/configuration.md)
+- [ローカル動作確認ガイド](docs/local-testing.md)

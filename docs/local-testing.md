@@ -39,3 +39,4 @@ flask --app app run --host 0.0.0.0 --port 5000 --debug
 - Flask のログ (`flask --app app run` を実行したターミナル) には、アップロードや変換時の詳細が出力されます。
 - `instance/` ディレクトリにセッション関連ファイルが生成される場合があります。不要になったら削除して構いません。
 - アプリのセットアップや UI の概要は「[音声文字起こし Web アプリ作成ガイド](create-web-app-for-audio-file-transcription-Bulab.md)」にも整理しています。
+- 環境変数などの設定項目は「[設定リファレンス](configuration.md)」を参照してください。

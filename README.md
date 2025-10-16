@@ -24,13 +24,6 @@
 
 3. ブラウザで `http://localhost:5000` にアクセスし、音声ファイルをアップロードしてください。変換が完了するとテキストファイルがダウンロードされます。
 
-## 環境変数
-
-| 変数名 | 説明 | 既定値 |
-| ------ | ---- | ------ |
-| `TEXTMAKE_SECRET_KEY` | Flask のセッション管理に使用するシークレットキー | `change-this-secret` |
-| `TEXTMAKE_WHISPER_MODEL` | 使用する Whisper モデル名 (`tiny`, `base`, `small`, `medium`, `large` など) | `base` |
-
 ## ライセンス
 
 MIT License
@@ -38,3 +31,4 @@ MIT License
 ## 関連ドキュメント
 
 - [ローカル動作確認ガイド](docs/local-testing.md)
+- [設定リファレンス（環境変数など）](docs/configuration.md)

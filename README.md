@@ -32,10 +32,10 @@ MIT License
 
 | 変数名 | 説明 | 必須 | デフォルト |
 | --- | --- | --- | --- |
-| `OPENAI_API_KEY` | OpenAI API の API キー | はい | - |
-| `WHISPER_MODEL` | Whisper モデル名 (`tiny`, `base`, `small`, `medium`, `large`, `tiny.en`, `base.en`, `small.en`) | いいえ | `base` |
+| `TEXTMAKE_SECRET_KEY` | Flask のセッション暗号化に利用するシークレットキー。開発用途では既定値のままでも動作しますが、本番運用では十分に長く予測困難な値に変更してください。 | いいえ | `change-this-secret` |
+| `TEXTMAKE_WHISPER_MODEL` | 使用する Whisper モデル名。`tiny`, `base`, `small`, `medium`, `large` などから選択でき、モデルが大きいほど精度が高くなりますが推論時間と必要リソースも増加します。 | いいえ | `base` |
 
-より詳細な設定項目は [設定リファレンス](docs/configuration.md) を参照してください。
+設定例や追加のカスタマイズ項目は [設定リファレンス](docs/configuration.md) を参照してください。
 
 ## 関連ドキュメント
 

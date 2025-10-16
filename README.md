@@ -28,7 +28,15 @@
 
 MIT License
 
+## 環境変数
+
+| 変数名 | 説明 | 必須 | デフォルト |
+| --- | --- | --- | --- |
+| `OPENAI_API_KEY` | OpenAI API の API キー | はい | - |
+| `WHISPER_MODEL` | Whisper モデル名 (`tiny`, `base`, `small`, `medium`, `large`, `tiny.en`, `base.en`, `small.en`) | いいえ | `base` |
+
+より詳細な設定項目は [設定リファレンス](docs/configuration.md) を参照してください。
+
 ## 関連ドキュメント
 
 - [ローカル動作確認ガイド](docs/local-testing.md)
-- [設定リファレンス（環境変数など）](docs/configuration.md)

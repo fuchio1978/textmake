@@ -32,11 +32,12 @@ MIT License
 
 | 変数名 | 用途 | 既定値 |
 | ------ | ---- | ------ |
-| `TEXTMAKE_SECRET_KEY` | Flask セッションの暗号化に使用します。本番環境では十分な長さのランダム値に変更してください。 | `change-this-secret` |
-| `TEXTMAKE_WHISPER_MODEL` | Whisper のモデルサイズ（`tiny`〜`large`）を指定します。 | `base` |
+| `TEXTMAKE_SECRET_KEY` | Flask のセッション暗号化に使用します。開発中は既定値でも動作しますが、本番では十分な長さのランダム値に更新してください。 | `change-this-secret` |
+| `TEXTMAKE_WHISPER_MODEL` | 利用する Whisper モデル (`tiny` / `base` / `small` / `medium` / `large`) を指定します。 | `base` |
 
-詳細な説明や追加の設定項目については [設定リファレンス](docs/configuration.md) を参照してください。
+その他の設定項目については [設定リファレンス](docs/configuration.md) を参照してください。
 
 ## 関連ドキュメント
 
 - [ローカル動作確認ガイド](docs/local-testing.md)
+- [設定リファレンス](docs/configuration.md)

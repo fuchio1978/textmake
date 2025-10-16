@@ -37,4 +37,4 @@ MIT License
 
 ## 関連ドキュメント
 
-- ローカル動作確認ガイド: [docs/local-testing.md](docs/local-testing.md)
+- [docs/local-testing.md](docs/local-testing.md) — ローカル動作確認ガイド

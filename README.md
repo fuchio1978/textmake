@@ -37,5 +37,4 @@ MIT License
 
 ## 関連ドキュメント
 
-- [ローカル動作確認ガイド](./docs/local-testing.md)
-- [音声文字起こし Web アプリ作成ガイド](./docs/create-web-app-for-audio-file-transcription-Bulab.md)
+- [ローカル動作確認ガイド](docs/local-testing.md)

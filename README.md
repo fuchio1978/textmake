@@ -30,12 +30,12 @@ MIT License
 
 ## 環境変数
 
-| 変数名 | 使い道 | 既定値 |
-| ------ | ------ | ------ |
-| `TEXTMAKE_SECRET_KEY` | Flask セッションに利用するシークレットキー。開発では任意の値で動作しますが、本番運用では十分に長く推測困難な値を設定してください。 | `change-this-secret` |
-| `TEXTMAKE_WHISPER_MODEL` | 使用する Whisper モデル名。`tiny`、`base`、`small`、`medium`、`large` などから選べます。 | `base` |
+| 変数名 | 用途 | 既定値 |
+| ------ | ---- | ------ |
+| `TEXTMAKE_SECRET_KEY` | Flask セッションの暗号化に使用します。本番環境では十分な長さのランダム値に変更してください。 | `change-this-secret` |
+| `TEXTMAKE_WHISPER_MODEL` | Whisper のモデルサイズ（`tiny`〜`large`）を指定します。 | `base` |
 
-より詳しい説明やその他の設定項目については [設定リファレンス](docs/configuration.md) も参照してください。
+詳細な説明や追加の設定項目については [設定リファレンス](docs/configuration.md) を参照してください。
 
 ## 関連ドキュメント
 
